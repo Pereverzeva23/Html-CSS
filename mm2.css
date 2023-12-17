@@ -1,0 +1,135 @@
+/** Глобальные стили плашки меню **/
+.abIFOg--r9{position:relative;z-index:2} /* устанавливает позиционирование относительно и z-index для плашки меню */
+.abViDTiP7{box-shadow:0 4px 56px rgba(0,0,0,.12)} /* добавляет тень для плашки */
+.abEhTul5j{background-color:var(--tds-color-elevation-01); color:var(--tds-color-text-01)} /* устанавливает цвет фона и текста для плашки */
+.abmP2sCtS{box-sizing:border-box;margin:0 auto;padding:0 16px} /* определяет размеры box, автоматический внешний отступ и внутренние отступы */
+.abmP2sCtS:not(.bbmP2sCtS){max-width:1200px;padding:0 48px;width:100%} /* устанавливает максимальную ширину и внутренние отступы для блоков, не имеющих класс bbmP2sCtS */
+.abGJQfHBC{align-items:stretch;display:flex;flex-direction:row;min-height:64px} /* стилизует flex-контейнер для элементов плашки меню */
+.abGJQfHBC>:only-child{flex:1 0 0} /* гарантирует, что единственный дочерний элемент контейнера flex занимает все доступное пространство */
+
+/* Блоки лога и меню */
+.cbGJQfHBC,.dbGJQfHBC{align-items:center;display:flex} /* стилизует флекс-блоки центрированно для лога и меню */
+.dbGJQfHBC{flex:1 0} /* берет весь доступный пространство для меню */
+.ebGJQfHBC{align-items:center;display:flex;justify-content:flex-end;margin-left:auto} /* стилизует блок входа, выравнивая его элементы по центру и справа */
+
+/* Стили для разделителя и оформления входа */
+.abgnU0qMR{background:var(--tds-color-base-04);border:none;height:1px;margin:0} /* стили для горизонтального разделителя */
+
+.bbvgiROqw{font:400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;letter-spacing:0} /* стиль текста для входа */
+.cbvgiROqw{margin-left:8px} /* отступ слева для иконки входа */
+
+/* Блок меню и его стили */
+.ab6b08tWq{display:flex;flex:1 0;flex-wrap:wrap;height:64px;overflow:hidden;padding-right:24px} /* блок меню с переносом строк и ограничением высоты */
+.bb6b08tWq{justify-content:flex-start} /* выравнивает элементы меню в начало контейнера */
+.abQyS1bNh{display:flex;flex-direction:row;justify-content:flex-start;margin-right:24px} /* стилизует отдельные разделы меню, выравнивая их в линию и добавляя маржин справа */
+.abQyS1bNh:last-child{margin-right:-24px} /* убирает маржин справа для последнего элемента */
+.bbQyS1bNh{align-items:stretch;position:relative} /* обеспечивает растягивание содержимого разделов меню и относительное позиционирование */
+.dbQyS1bNh{align-items:center;height:64px} /* центрирует содержимое разделов меню по вертикали и задает фиксированную высоту */
+.dbQyS1bNh{color:var(--tds-color-text-02);display:inline-flex;font:400 13px/20px dsText,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;letter-spacing:0;outline:none;position:relative;text-decoration:none;transition:.3s ease-in-out;transition-property:color,box-shadow;white-space:nowrap} /* основной стиль для текста в разделах меню */
+/* Лого */
+.abR54GM-\+Z{background:url(../images/main-logo.svg) 50%/cover;height:34px;width:150px} /* задает фон, который является логотипом, выравнивает его и задает размеры */
+
+/* Стили для изображения, блока сдвига и другие элементы */
+.abw-\+iCW6j{box-sizing:border-box;display:block;margin:0 auto;max-width:1104px;min-width:1104px} /* стили для центровки содержимого и установки максимальных и минимальных ширин */
+
+/* Устанавливает стили для контейнера, 
+выравнивает его содержимое по центру, 
+применяет flex-разметку с вертикальным направлением элементов,
+ убирает видимость элементов, 
+выходящих за пределы контейнера, 
+и добавляет внутренние отступы. */
+.abbxzoRJs{align-items:center;display:flex;flex-direction:column;overflow:hidden;padding-bottom:40px;padding-top:48px;position:relative}
+/* Модификация стиля .abbxzoRJs, устанавливает верхний внутренний отступ большего размера. */
+.bbbxzoRJs{padding-top:76px}
+			/*Название раздела Frontend*/
+			.cbbxzoRJs{max-width:912px}
+			.ebbxzoRJs{padding-bottom:24px}
+			/*Кнопочка сдвиг*/
+			.fbbxzoRJs{display:flex;padding-top:40px}
+			/*Кнопочка*/
+			.gbbxzoRJs:first-child:not(:last-child){margin-right:12px}
+			/*Блок картинки*/
+			.hbbxzoRJs{height:460px;margin-top:64px;overflow:hidden;position:relative;width:100%}
+			.ibbxzoRJs{bottom:-50px;height:50px;position:absolute;width:100%}
+			.abCbZkQc5 a{color:var(--tds-color-link);cursor:pointer;padding-bottom:0;padding-top:0;transition:all .2s ease}
+			.abLFSwIk4{display:inline-block}
+			.bbLFSwIk4{position:relative;z-index:10}			
+			.abz8Gz7kJ{align-items:flex-end;display:flex;justify-content:space-between;padding-bottom:24px;padding-top:76px}
+			.bbz8Gz7kJ{width:912px}
+			.cbz8Gz7kJ{margin-left:auto;margin-right:auto}
+		
+			.ebz8Gz7kJ{flex-basis:auto;flex-grow:0;flex-shrink:0}
+			.abuUchN-\+j{box-sizing:border-box;display:block;margin:0 auto;max-width:1104px;min-width:1104px}
+			.abuUchN-\+j:not(.bbuUchN-\+j){padding-bottom:24px;padding-top:24px}
+			.abmXsIKjd{display:inline}
+			.abmXsIKjd a{cursor:pointer}
+.razdel{
+background:inherit;
+box-sizing:border-box;
+display:block;
+font-size:inherit;
+font-weight:inherit;
+line-height:inherit;
+text-align:center;
+font:var(--tui-font-heading-2,700 44px/48px dsHeading,dsHeading Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif);
+font-variant-ligatures:var(--tui-font-heading-2-font-variant-ligatures,var(--tui-font-font-variant-ligatures-reset,no-contextual));
+letter-spacing:var(--tui-font-heading-2-letter-spacing,var(--tui-font-letter-spacing-reset,0));
+color:var(--tds-color-text-01)
+}
+	
+			/*стиль содержимого внутри блока (объединить стили с другими блоками)*/
+			
+			.abYBKIvj9{display:flex;height:100%;width:100%}
+			.bbYBKIvj9{display:flex;flex-direction:column;flex-grow:1;margin:32px}
+			.cbYBKIvj9 .bbYBKIvj9{margin-right:8px}
+			.dbYBKIvj9{margin-bottom:12px}
+
+			
+			/*блок без округления*/
+			.blockInfo{border-radius:24px;box-sizing:border-box;color:#333;display:block;overflow:hidden;position:relative;transform:scaleX(1);max-width:100%;padding:0 8px;vertical-align:top;width:100%}
+	
+			/*Сдвиг названия разделов*/
+			.jbw2xnVt1{flex:0 0 28%;max-width:50%}
+/*отступы между блоками*/
+			.nbw2xnVt1{flex:0 0 40%;max-width:50%}
+	.zbw2xnVt1{
+flex:0 0 20%;
+max-width:50%}
+
+.pictureBlock
+{
+max-width:50%
+}
+
+
+	.textStyle{
+		word-wrap:break-word;
+font:var(--tui-font-heading-5,500 24px/28px dsHeading,dsHeading Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif);
+font-variant-ligatures:var(--tui-font-heading-5-font-variant-ligatures,var(--tui-font-font-variant-ligatures-reset,no-contextual));
+letter-spacing:var(--tui-font-heading-5-letter-spacing,var(--tui-font-letter-spacing-reset,0));
+color:var(--tds-color-text-01);
+
+	}
+			/*поменять на стиль из другого раздела*/
+			.textStyle2{word-wrap:break-word;font:var(--tui-font-text-m,400 15px/24px dsText,dsText Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif);letter-spacing:var(--tui-font-text-m-letter-spacing,var(--tui-font-letter-spacing-reset,0))}
+			
+/*нужно поменять стиль из других блоков*/
+			.positionBlock{box-sizing:border-box;display:block;margin:0 auto;max-width:1104px;min-width:1104px}
+
+			.styleBlock{display:flex;flex:1 0 0;flex-grow:1;flex-wrap:wrap;
+box-sizing:border-box;
+}
+			/*Сдвиг обучения и цифры*/
+				.ab6t87BcQ{box-sizing:border-box;display:block;margin:0 auto;max-width:1104px;min-width:1104px}
+
+				.abgI7bSgF{margin:0 auto;max-width:816px;min-width:816px}
+				.abtbOQUfy{align-items:center;border-radius:31.25%;display:flex;flex-direction:column;justify-content:center;margin-left:auto;margin-right:auto;overflow:hidden;position:relative}	
+				/*размер цифры*/
+				.cbtbOQUfy{font:var(--tui-font-heading-3,500 20px/30px dsHeading,dsHeading Fallback,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif);text-align:center;width:100%}
+				/*блок с округлением*/
+				.blockTrans{border-radius:24px;box-sizing:border-box;color:#333;display:block;overflow:hidden;position:relative;-webkit-transform:scaleX(1);transform:scaleX(1);width:100%;
+background:#fff}
+				
+	
+					
+				
